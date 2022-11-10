@@ -187,7 +187,7 @@ class ProfCoursTest extends TestCase
         // Cours
         
         print "ADD cours\n";
-        foreach (self::$cours_a as $cours_a) {
+        foreach (self::$cours_a as $cours) {
             $cours->add($conn);
         }
 
