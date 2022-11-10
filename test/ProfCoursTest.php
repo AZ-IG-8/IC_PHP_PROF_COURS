@@ -80,20 +80,29 @@ class ProfCoursTest extends TestCase
             new Prof("Nom_prof7", "Prenom_prof7", "10/07/1982", "lieu_prof7"),      // idprof = 7
             new Prof("Nom_prof8", "Prenom_prof8", "10/08/1982", "lieu_prof8"),      // idprof = 8       ** A SUPPRIMER **
             new Prof("Nom_prof9", "Prenom_prof9", "10/09/1982", "lieu_prof9"),      // idprof = 9
-            new Prof("Nom_prof10", "Prenom_prof10", "10/10/1982", "lieu_prof10")    // idprof = 10      ** A MODIFIER **
+            new Prof("Nom_prof10", "Prenom_prof10", "10/10/1982", "lieu_prof10"),  // idprof = 10      ** A MODIFIER **
+            new Prof("Nom_Prof1", "Prenom_Prof1", "10/01/1982", "lieu_prof1"),      // idprof = 11
+            new Prof("Nom_Prof2", "Prenom_Prof2", "10/02/1982", "lieu_prof2"),      // idprof = 12
+            new Prof("Nom_Prof3", "Prenom_Prof3", "10/03/1982", "lieu_prof3"),      // idprof = 13
+
 
         ];
 
+
         self::$cours_a = [
-            new Cours("IoT", "10", 1),       // idcours = 1
-            new Cours("IA", "12", 3),     // idcours = 2
-            new Cours("EDL", "5", 6),       // idcours = 3
+            new Cours("Cours1", "2", 1),       // idcours = 1
+            new Cours("Cours2", "2.5", 3),     // idcours = 2
+            new Cours("Cours3", "3", 5),       // idcours = 3
             new Cours("Cours4", "2", 3),       // idcours = 4
             new Cours("Cours5", "3", 3),       // idcours = 5
             new Cours("Cours6", "2", 4),       // idcours = 6
             new Cours("Cours7", "3", 5),       // idcours = 7   ** A SUPPRIMER **
             new Cours("Cours8", "4", 5),       // idcours = 8
             new Cours("Cours9", "3", 5),        // idcours = 9   ** A MODIFIER **
+            new Cours("IoT", "10", 1),       // idcours = 10
+            new Cours("IA", "12", 3),       // idcours = 11
+            new Cours("EDL", "5", 6),        // idcours = 12
+
             
             /**
             *
